@@ -27,7 +27,7 @@ module.exports = {
 
         user.save();
 
-        return res.status(200).send({ message: 'Succefull sale' })
+        return res.status(200).send({ message: 'Successful sale' })
     },
 
     async getAllSales(req, res) {
